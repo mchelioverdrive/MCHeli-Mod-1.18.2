@@ -9,11 +9,13 @@ import java.util.List;
 import mchelio.aircraft.MCH_AircraftInfo;
 import mchelio.aircraft.MCH_ItemAircraft;
 import mchelio.wrapper.W_Item;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTab;
 
-public class MCH_CreativeTabs extends CreativeTabs {
+
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+
+public class MCH_CreativeTabs extends CreativeModeTab {
 
     private List iconItems = new ArrayList();
     private Item lastItem;
